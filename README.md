@@ -1,2 +1,6 @@
 # repo-factory
-First Laboratory Design Pattern Architecture
+### Software Engineering 1 (Laboratory)
+Lab Assignment 1 : Revise the sample factory design pattern
+
+Faustino, Felix Luis A.
+3BSCS-1
