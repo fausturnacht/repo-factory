@@ -47,7 +47,7 @@ public class Clinic {
                             "\nNumber of lives: " + ((Cat) pet).getNoOfLives());
                     break;
                 case 3:
-                    System.out.println("Exiting Clinic...");
+                    System.out.print("Exiting Clinic...");
                     break;
                 default:
                     System.out.println("Invalid choice! Please try again.");
