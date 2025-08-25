@@ -1,20 +1,14 @@
-public class PetRecord{
-    private String petID;
+public class PetRecord {
+    private String petId;
     private String petName;
     private Pet pet;
 
-    public PetRecord(String petID, String petName, Pet pet) {
-        this.petID = petID;
-        this.petName = petName;
-        this.pet = pet;
+    public String getPetId() {
+        return petId;
     }
 
-    public String getPetID() {
-        return petID;
-    }
-
-    public void setPetID(String petID) {
-        this.petID = petID;
+    public void setPetId(String petId) {
+        this.petId = petId;
     }
 
     public String getPetName() {
@@ -24,7 +18,12 @@ public class PetRecord{
     public void setPetName(String petName) {
         this.petName = petName;
     }
+
     public Pet getPet() {
         return pet;
+    }
+
+    public void setPet(Pet pet) {
+        this.pet = pet;
     }
 }

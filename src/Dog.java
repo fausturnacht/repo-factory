@@ -1,20 +1,20 @@
-public class Dog implements Pet{
+public class Dog implements Pet {
     private String breed;
-
-    @Override
-    public String makeSound(){
-        return "Aw!";
-    }
-
-    @Override
-    public String play(){
-        return "*plays fetch with you*";
-    }
 
     public String getBreed() {
         return breed;
     }
+
     public void setBreed(String breed) {
         this.breed = breed;
+    }
+    @Override
+    public String makeSound() {
+        return "Aw, aw!";
+    }
+
+    @Override
+    public String play() {
+        return "Catching objects that you throw!";
     }
 }
